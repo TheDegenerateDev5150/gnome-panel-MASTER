@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: oc\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-panel/issues\n"
-"POT-Creation-Date: 2022-03-13 02:53+0000\n"
-"PO-Revision-Date: 2022-03-22 18:07+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-panel/issues/\n"
+"POT-Creation-Date: 2025-10-12 21:47+0000\n"
+"PO-Revision-Date: 2025-10-25 21:06+0200\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Tot En Òc\n"
 "Language: oc\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.8\n"
 "X-Project-Style: gnome\n"
 
 #: data/org.gnome.gnome-panel.applet.clock.gschema.xml:5
@@ -102,10 +102,12 @@ msgid "If true, expand the list of locations in the calendar window."
 msgstr "Se verai, espandís la lista dels luòcs dins la fenèstra del calendièr."
 
 #: data/org.gnome.gnome-panel.applet.clock.gschema.xml:50
+#: data/org.gnome.gnome-panel.applet.clock.gschema.xml:58
 msgid "List of locations"
 msgstr "Lista d'emplaçaments"
 
 #: data/org.gnome.gnome-panel.applet.clock.gschema.xml:51
+#: data/org.gnome.gnome-panel.applet.clock.gschema.xml:59
 msgid ""
 "A list of locations to display in the calendar window. Each location is a "
 "tuple of display name, METAR code and coordinates."
@@ -191,8 +193,8 @@ msgid ""
 "Possible values are \"never\", \"auto\" and \"always\"."
 msgstr ""
 "Decidís quora cal gropar las fenèstras de la meteissa aplicacion dins la "
-"lista de fenèstras. Las valors possiblas son \"jamai\", \"auto\" e \"totjorn"
-"\"."
+"lista de fenèstras. Las valors possiblas son \"jamai\", \"auto\" e "
+"\"totjorn\"."
 
 #: data/org.gnome.gnome-panel.applet.window-list.gschema.xml:21
 msgid "Move windows to current workspace when unminimized"
@@ -250,19 +252,19 @@ msgstr ""
 "trabalh utiliza per afichar los espacis de trabalh. Aquesta clau es pas "
 "valabla que se la clau display_all_workspaces es a verai."
 
-#: data/org.gnome.gnome-panel.gschema.xml:28
+#: data/org.gnome.gnome-panel.gschema.xml:30
 msgid "Default panel layout"
 msgstr "La disposicion per defaut dels panèls"
 
-#: data/org.gnome.gnome-panel.gschema.xml:29
+#: data/org.gnome.gnome-panel.gschema.xml:31
 msgid "The default panel layout to use when panels are created."
 msgstr "La disposicion per defaut d'emplegar en creant de panèls novèls."
 
-#: data/org.gnome.gnome-panel.gschema.xml:34
+#: data/org.gnome.gnome-panel.gschema.xml:36
 msgid "Enable tooltips"
 msgstr "Activar las infobullas"
 
-#: data/org.gnome.gnome-panel.gschema.xml:35
+#: data/org.gnome.gnome-panel.gschema.xml:37
 msgid ""
 "If true, tooltips are shown for objects in panels. Tooltips can be disabled "
 "for the whole desktop with the gtk-enable-tooltips property in GTK+."
@@ -271,15 +273,15 @@ msgstr ""
 "infobullas pòdon èsser desactivadas pel burèu complet amb la proprietat gtk-"
 "enable-tooltips de GTK+."
 
-#: data/org.gnome.gnome-panel.gschema.xml:40
+#: data/org.gnome.gnome-panel.gschema.xml:42
 msgid "Prefer symbolic icons in panels"
 msgstr "Icòna simbolica preferida pels panèls"
 
-#: data/org.gnome.gnome-panel.gschema.xml:45
+#: data/org.gnome.gnome-panel.gschema.xml:47
 msgid "Confirm panel removal"
 msgstr "Confirmatz la supression del panèl"
 
-#: data/org.gnome.gnome-panel.gschema.xml:46
+#: data/org.gnome.gnome-panel.gschema.xml:48
 msgid ""
 "If true, a dialog is shown asking for confirmation if the user wants to "
 "remove a panel."
@@ -287,31 +289,44 @@ msgstr ""
 "Se verai, una bóstia de dialòg es afichada per demandar a l'utilizaire de "
 "confirmer la suppression del tablèu de bòrd."
 
-#: data/org.gnome.gnome-panel.gschema.xml:51
+#: data/org.gnome.gnome-panel.gschema.xml:53
 msgid "Icon size in menus"
 msgstr "Talha de las icònas pels menús"
 
-#: data/org.gnome.gnome-panel.gschema.xml:52
+#: data/org.gnome.gnome-panel.gschema.xml:54
 msgid "The size of icons in menus."
 msgstr "La talha de las icònas dins los menús."
 
-#: data/org.gnome.gnome-panel.gschema.xml:57
+#: data/org.gnome.gnome-panel.gschema.xml:59
 msgid "Maximum icon size in panels"
 msgstr "Talha maximala de las icònas pels panèls"
 
-#: data/org.gnome.gnome-panel.gschema.xml:58
+#: data/org.gnome.gnome-panel.gschema.xml:60
 msgid "The maximum size of icons in panels."
 msgstr "Talha de las icònas pels panèls."
 
-#: data/org.gnome.gnome-panel.gschema.xml:63
+#: data/org.gnome.gnome-panel.gschema.xml:66
+msgid "Icon spacing in panels"
+msgstr "Espaçament de las icònas dins lo tablèu de bòrd"
+
+#: data/org.gnome.gnome-panel.gschema.xml:67
+msgid ""
+"On horizontal panel minimum space between top and bottom border and the "
+"icon. For vertical panel minimum space from left and right borders."
+msgstr ""
+"Sul panèl orizontal, espaci minimal entre la bordadura superiora e inferiora "
+"e l'icòna. Pel panèl vertical, espaci minimal a partir de las bordaduras "
+"esquèrra e drecha."
+
+#: data/org.gnome.gnome-panel.gschema.xml:72
 msgid "Which theme variant to use"
 msgstr "Quina tèma d'utilizar"
 
-#: data/org.gnome.gnome-panel.gschema.xml:70
+#: data/org.gnome.gnome-panel.gschema.xml:79
 msgid "Panel ID list"
 msgstr "Liste dels ID de tablèus de bòrd"
 
-#: data/org.gnome.gnome-panel.gschema.xml:71
+#: data/org.gnome.gnome-panel.gschema.xml:80
 msgid ""
 "A list of panel IDs. Each ID identifies an individual toplevel panel. The "
 "settings for each of these panels are stored in /apps/panel/toplevels/$(id)."
@@ -320,26 +335,26 @@ msgstr ""
 "tablèu de bòrd de naut nivèl. Los reglatges de cadun d'aquestes tablèus de "
 "bòrd son emmagazinats dins /apps/panel/toplevels/$(id)."
 
-#: data/org.gnome.gnome-panel.gschema.xml:75
+#: data/org.gnome.gnome-panel.gschema.xml:84
 msgid "Panel object ID list"
 msgstr "Liste dels ID d'elements de tablèus de bòrd"
 
-#: data/org.gnome.gnome-panel.gschema.xml:76
+#: data/org.gnome.gnome-panel.gschema.xml:85
 msgid ""
-"A list of panel object IDs. Each ID identifies an individual panel object (e."
-"g. an applet, launcher, action button or menu button/bar). The settings for "
-"each of these objects are stored in /apps/panel/objects/$(id)."
+"A list of panel object IDs. Each ID identifies an individual panel object "
+"(e.g. an applet, launcher, action button or menu button/bar). The settings "
+"for each of these objects are stored in /apps/panel/objects/$(id)."
 msgstr ""
 "Una lista d'ID d'elements de tablèus de bòrd. Cada ID identifica "
 "individualament un element de tablèu de bòrd (es a dire una applet, un "
 "aviador, un boton d'actions o un boton/barra de menú). Los reglatges de "
 "cadun d'aqueles elements son emmagazinats dins /apps/panel/objects/$(id)."
 
-#: data/org.gnome.gnome-panel.gschema.xml:83
+#: data/org.gnome.gnome-panel.gschema.xml:92
 msgid "Complete panel lockdown"
 msgstr "Verrolhar completament lo panèl"
 
-#: data/org.gnome.gnome-panel.gschema.xml:84
+#: data/org.gnome.gnome-panel.gschema.xml:93
 msgid ""
 "If true, the panel will not allow any changes to the configuration of the "
 "panel. Individual applets may need to be locked down separately however. The "
@@ -350,11 +365,11 @@ msgstr ""
 "d'èsser verrolhadas separadament. Lo tablèu de bòrd deu èsser reaviat per "
 "que aquò prenga efièch."
 
-#: data/org.gnome.gnome-panel.gschema.xml:88
+#: data/org.gnome.gnome-panel.gschema.xml:97
 msgid "Applet IIDs to disable from loading"
 msgstr "IIDs d'applets a ne pas cargar"
 
-#: data/org.gnome.gnome-panel.gschema.xml:89
+#: data/org.gnome.gnome-panel.gschema.xml:98
 msgid ""
 "A list of applet IIDs that the panel will ignore. This way you can disable "
 "certain applets from loading or showing up in the menu. For example to "
@@ -367,11 +382,11 @@ msgstr ""
 "« OAFIID:GNOME_MiniCommanderApplet ». Lo tablèu de bòrd deu èsser reaviat "
 "per qu'aquò prenga efièch."
 
-#: data/org.gnome.gnome-panel.gschema.xml:93
+#: data/org.gnome.gnome-panel.gschema.xml:102
 msgid "Disable Force Quit"
 msgstr "Desactivar Forçar a quitar"
 
-#: data/org.gnome.gnome-panel.gschema.xml:94
+#: data/org.gnome.gnome-panel.gschema.xml:103
 msgid ""
 "If true, the panel will not allow a user to force an application to quit by "
 "removing access to the force quit button."
@@ -379,24 +394,24 @@ msgstr ""
 "Se verai, lo tablèu de bòrd interditz als utilizaires de forçar una "
 "aplicacion de quitar en supriment l'accès al boton forçar a quitar."
 
-#: data/org.gnome.gnome-panel.gschema.xml:101
+#: data/org.gnome.gnome-panel.gschema.xml:110
 msgid "History of \"Run Application\" dialog"
 msgstr "Istoric de la bóstia de dialòg « Aviar una aplicacion »"
 
-#: data/org.gnome.gnome-panel.gschema.xml:102
+#: data/org.gnome.gnome-panel.gschema.xml:111
 msgid ""
 "The list of commands used in the past in the \"Run Application\" dialog."
 msgstr ""
 "La lista de las comandas precedentament utilizadas dins la bóstia de dialòg "
 "« Aviar una aplicacion »."
 
-#: data/org.gnome.gnome-panel.gschema.xml:106
+#: data/org.gnome.gnome-panel.gschema.xml:115
 msgid "Enable program list in \"Run Application\" dialog"
 msgstr ""
 "Activa la lista dels programas dins la bóstia de dialòg « Aviar una "
 "aplicacion »"
 
-#: data/org.gnome.gnome-panel.gschema.xml:107
+#: data/org.gnome.gnome-panel.gschema.xml:116
 msgid ""
 "If true, the \"Known Applications\" listing in the \"Run Application\" "
 "dialog is made available. Whether or not the listing is expanded when the "
@@ -406,13 +421,13 @@ msgstr ""
 "« Aviar una aplicacion » es renduda disponibla. La clau show_program_list "
 "contraròtla la dobertura de la lista quand la bóstia de dialòg es afichada."
 
-#: data/org.gnome.gnome-panel.gschema.xml:111
+#: data/org.gnome.gnome-panel.gschema.xml:120
 msgid "Expand program list in \"Run Application\" dialog"
 msgstr ""
 "Desenrotla la lista dels programas dins la bóstia de dialòg « Aviar una "
 "aplicacion »"
 
-#: data/org.gnome.gnome-panel.gschema.xml:112
+#: data/org.gnome.gnome-panel.gschema.xml:121
 msgid ""
 "If true, the \"Known Applications\" listing in the \"Run Application\" "
 "dialog is expanded when the dialog is opened. This key is only relevant if "
@@ -422,12 +437,12 @@ msgstr ""
 "« Aviar una aplicacion » es dobèrta. Aqueste reglatge es pas valable que se "
 "la clau enable_program_list es a verai."
 
-#: data/org.gnome.gnome-panel.gschema.xml:116
+#: data/org.gnome.gnome-panel.gschema.xml:125
 msgid "Enable autocompletion in \"Run Application\" dialog"
 msgstr ""
 "Activa l'autocomplecion dins la bóstia de dialòg « Aviar una aplicacion »"
 
-#: data/org.gnome.gnome-panel.gschema.xml:117
+#: data/org.gnome.gnome-panel.gschema.xml:126
 msgid ""
 "If true, autocompletion in the \"Run Application\" dialog is made available."
 msgstr ""
@@ -440,26 +455,34 @@ msgstr "IID de l'objècte"
 
 #: data/org.gnome.gnome-panel.object.gschema.xml:6
 msgid ""
-"The implementation ID of the object - e.g. \"ClockAppletFactory::ClockApplet"
-"\"."
+"The implementation ID of the object - e.g. "
+"\"ClockAppletFactory::ClockApplet\"."
 msgstr ""
-"L'ID de l'implémentation de l'objècte - per ex. « ClockAppletFactory::"
-"ClockApplet »."
+"L'ID de l'implémentation de l'objècte - per ex. "
+"« ClockAppletFactory::ClockApplet »."
 
 #: data/org.gnome.gnome-panel.object.gschema.xml:10
+msgid "Module ID"
+msgstr "ID del modul"
+
+#: data/org.gnome.gnome-panel.object.gschema.xml:14
+msgid "Applet ID"
+msgstr "ID de l’applet"
+
+#: data/org.gnome.gnome-panel.object.gschema.xml:18
 msgid "Toplevel panel containing object"
 msgstr "Tablèu de bòrd de naut nivèl que conten un element"
 
-#: data/org.gnome.gnome-panel.object.gschema.xml:11
+#: data/org.gnome.gnome-panel.object.gschema.xml:19
 msgid "The identifier of the toplevel panel which contains this object."
 msgstr ""
 "L'identificant del tablèu de bòrd de naut nivèl que conten aqueste element."
 
-#: data/org.gnome.gnome-panel.object.gschema.xml:15
+#: data/org.gnome.gnome-panel.object.gschema.xml:23
 msgid "Interpret position relative to bottom/right edge"
 msgstr "Interprèta la posicion relativament al costat bas/drech"
 
-#: data/org.gnome.gnome-panel.object.gschema.xml:16
+#: data/org.gnome.gnome-panel.object.gschema.xml:24
 msgid ""
 "If set to 'end', the position of the object is interpreted relative to the "
 "right (or bottom if vertical) edge of the panel."
@@ -467,22 +490,18 @@ msgstr ""
 "Se definit a « end », la posicion de l'element es interpretada relativament "
 "al costat drech (o bas se vertical) del tablèu de bòrd."
 
-#: data/org.gnome.gnome-panel.object.gschema.xml:20
+#: data/org.gnome.gnome-panel.object.gschema.xml:28
 msgid "Object's position on the panel"
 msgstr "Posicion de l'element sul tablèu de bòrd"
 
-#: data/org.gnome.gnome-panel.object.gschema.xml:21
-#, fuzzy
-#| msgid ""
-#| "The position of this panel object. The position is specified by the "
-#| "number of pixels from the left (or top if vertical) panel edge."
+#: data/org.gnome.gnome-panel.object.gschema.xml:29
 msgid ""
 "The index of this panel object within the other objects with the same pack-"
 "type, from the left (or top if vertical) panel edge."
 msgstr ""
-"La posicion d'aqueste element de tablèu de bòrd. La posicion es indicada pel "
-"nombre de pixèls dempuèi lo costat esquèrra (o naut se vertical) del tablèu "
-"de bòrd."
+"L'indèx d'aqueste objècte de tablèu de bòrd demest los autres objèctes del "
+"meteis tipe d'empaquetatge, a partir del bòrd esquèrre (o superior se "
+"vertical) del panèl."
 
 #: data/org.gnome.gnome-panel.toplevel.gschema.xml:5
 msgid "Name to identify panel"
@@ -532,18 +551,18 @@ msgstr "Orientacion del panèl"
 
 #: data/org.gnome.gnome-panel.toplevel.gschema.xml:21
 msgid ""
-"The orientation of the panel. Possible values are \"top\", \"bottom\", \"left"
-"\", \"right\". In expanded mode the key specifies which screen edge the "
-"panel is on. In un-expanded mode the difference between \"top\" and \"bottom"
-"\" is less important - both indicate that this is a horizontal panel - but "
-"still give a useful hint as to how some panel objects should behave. For "
-"example, on a \"top\" panel a menu button will pop up its menu below the "
+"The orientation of the panel. Possible values are \"top\", \"bottom\", "
+"\"left\", \"right\". In expanded mode the key specifies which screen edge "
+"the panel is on. In un-expanded mode the difference between \"top\" and "
+"\"bottom\" is less important - both indicate that this is a horizontal panel "
+"- but still give a useful hint as to how some panel objects should behave. "
+"For example, on a \"top\" panel a menu button will pop up its menu below the "
 "panel, whereas on a \"bottom\" panel the menu will be popped up above the "
 "panel."
 msgstr ""
-"L'orientacion del tablèu de bòrd. Las quatre valors possiblas son : « top "
-"» (naut), « bottom » (bas), « left » (esquèrra) e « right » (drecha). En "
-"mòde espandit, la clau indica sus quin costat de l'ecran plaçar lo tablèu de "
+"L'orientacion del tablèu de bòrd. Las quatre valors possiblas son : « top » "
+"(naut), « bottom » (bas), « left » (esquèrra) e « right » (drecha). En mòde "
+"espandit, la clau indica sus quin costat de l'ecran plaçar lo tablèu de "
 "bòrd. En mòde pas espandit, la diferéncia entre « top » e « bottom » es mens "
 "importanta - los dos indican qu'es un tablèu de bòrd orizontal - mas dona "
 "çaquelà una indicacion utila sul biais que certans elements de tablèu de "
@@ -557,8 +576,8 @@ msgstr "Alinhament panèl"
 
 #: data/org.gnome.gnome-panel.toplevel.gschema.xml:26
 msgid ""
-"The alignment of the panel. Possible values are \"start\", \"center\", \"end"
-"\"."
+"The alignment of the panel. Possible values are \"start\", \"center\", "
+"\"end\"."
 msgstr ""
 "L'alinhament del panèl. Valors possiblas « start » « center » e « end »."
 
@@ -666,8 +685,8 @@ msgstr "Velocitat d'animacion"
 
 #: data/org.gnome.gnome-panel.toplevel.gschema.xml:69
 msgid ""
-"The speed in which panel animations should occur. Possible values are \"slow"
-"\", \"medium\" and \"fast\". This key is only relevant if the "
+"The speed in which panel animations should occur. Possible values are "
+"\"slow\", \"medium\" and \"fast\". This key is only relevant if the "
 "enable_animations key is true."
 msgstr ""
 "La velocitat a la quala las animacions doivent fonctionner. I a 3 valors "
@@ -738,11 +757,11 @@ msgstr "Utilizar una color personalizada"
 msgid "Text Color"
 msgstr "Color del tèxte"
 
-#: gnome-panel/gnome-panel.desktop.in:4 gnome-panel/gp-main.c:140
+#: gnome-panel/gnome-panel.desktop.in:3 gnome-panel/gp-main.c:135
 msgid "Panel"
 msgstr "Panèl"
 
-#: gnome-panel/gnome-panel.desktop.in:5
+#: gnome-panel/gnome-panel.desktop.in:4
 msgid ""
 "Launch other applications and provide various utilities to manage windows, "
 "show the time, etc."
@@ -750,42 +769,44 @@ msgstr ""
 "Aviar de las aplicacions suplementàrias e diferents utilitaris per gerir las "
 "fenèstras, indicar l'ora, etc."
 
-#: gnome-panel/gp-add-applet-window.c:368
+#: gnome-panel/gp-add-applet-window.c:431
 msgid "Add to Panel"
 msgstr "Apondre al panel"
 
-#: gnome-panel/gp-add-applet-window.c:541
+#: gnome-panel/gp-add-applet-window.c:604
 msgid "No applets found"
 msgstr "Cap d'applet pas trobada"
 
-#: gnome-panel/gp-add-applet-window.c:556
+#: gnome-panel/gp-add-applet-window.c:619
 #, c-format
 msgid "Find an item to add to “%s”"
 msgstr "Trobar un element d'apondre a « %s »"
 
-#: gnome-panel/gp-add-applet-window.c:558
+#: gnome-panel/gp-add-applet-window.c:621
 msgid "Find an item to add to the panel"
 msgstr "Trobar un element d'apondre al tablèu de bòrd"
 
-#: gnome-panel/gp-applet-list-row.c:114 gnome-panel/gp-applet-row.c:110
+#: gnome-panel/gp-applet-list-row.c:118 gnome-panel/gp-applet-row.c:112
 msgid "Help"
 msgstr "Ajuda"
 
-#: gnome-panel/gp-applet-list-row.c:124 gnome-panel/gp-applet-row.c:120
+#: gnome-panel/gp-applet-list-row.c:128 gnome-panel/gp-applet-row.c:122
 msgid "About"
 msgstr "A prepaus"
 
-#: gnome-panel/gp-applet-list-row.c:207
+#: gnome-panel/gp-applet-list-row.c:284
 msgid "Remove"
 msgstr "Suprimir"
 
-#: gnome-panel/gp-applet-manager.c:420
+#: gnome-panel/gp-applet-manager.c:251
 msgid ""
-"Disabled because this applet is listed in “disabled-applets” setting in “org."
-"gnome.gnome-panel.lockdown” GSettings schema."
+"Disabled because this applet is listed in “disabled-applets” setting in "
+"“org.gnome.gnome-panel.lockdown” GSettings schema."
 msgstr ""
+"Desactivat perque aquesta applet es listada dins lo paramètre « disabled-"
+"applets » de l'esquèma GSettings « org.gnome.gnome-panel.lockdown »."
 
-#: gnome-panel/gp-applet-row.c:270
+#: gnome-panel/gp-applet-row.c:285
 msgid "Add"
 msgstr "Apondre"
 
@@ -793,45 +814,86 @@ msgstr "Apondre"
 msgid "Hide Panel"
 msgstr "Amagar lo panèl"
 
-#: gnome-panel/gp-main.c:49
+#: gnome-panel/gp-error-applet.c:121
+msgid "Failed to Load Applet"
+msgstr "Impossible de cargar l'applet"
+
+#: gnome-panel/gp-error-applet.c:123
+msgid "Do you want to delete the applet from your configuration?"
+msgstr "Volètz suprimir l'applet de vòstra configuracion ?"
+
+#: gnome-panel/gp-error-applet.c:124
+#, c-format
+msgid ""
+"The panel encountered a problem while loading “<b>%s</b>” applet from "
+"“<b>%s</b>” module! %s"
+msgstr ""
+"Lo tablèu de bòrd a rencontrat un problèma al moment del cargament de "
+"l'aplet « <b>%s</b> » dempuèi lo modul « <b>%s</b> » ! %s"
+
+#: gnome-panel/gp-error-applet.c:143
+msgid "OK"
+msgstr "Validar"
+
+#: gnome-panel/gp-error-applet.c:152 gnome-panel/panel.c:1350
+msgid "_Delete"
+msgstr "_Suprimir"
+
+#: gnome-panel/gp-error-applet.c:159
+msgid "D_on't Delete"
+msgstr "_Suprimir pas"
+
+#. FIXME: We need a title in this case, but we don't know what
+#. * the format should be. Let's put something simple until
+#. * the following bug gets fixed:
+#. * http://bugzilla.gnome.org/show_bug.cgi?id=165132
+#: gnome-panel/gp-error-applet.c:173 libpanel-util/panel-error.c:78
+msgid "Error"
+msgstr "Error"
+
+#: gnome-panel/gp-error-applet.c:185
+msgid "Failed to load applet! Click for more info..."
+msgstr "Impossible de cargar l'applet ! Clicatz per mai d’informacions..."
+
+#: gnome-panel/gp-main.c:44
 msgid "Replace a currently running panel"
 msgstr "Remplaça un tablèu de bòrd en cors d'execucion"
 
-#: gnome-panel/gp-main.c:55
+#: gnome-panel/gp-main.c:50
 msgid "Print version"
 msgstr "Version imprimibla"
 
-#: gnome-panel/gp-properties-dialog.c:224
+#: gnome-panel/gp-properties-dialog.c:226
 msgctxt "Orientation"
 msgid "Top"
 msgstr "Amont"
 
-#: gnome-panel/gp-properties-dialog.c:225
+#: gnome-panel/gp-properties-dialog.c:227
 msgctxt "Orientation"
 msgid "Bottom"
 msgstr "Aval"
 
-#: gnome-panel/gp-properties-dialog.c:226
+#: gnome-panel/gp-properties-dialog.c:228
 msgctxt "Orientation"
 msgid "Left"
 msgstr "A esquèrra"
 
-#: gnome-panel/gp-properties-dialog.c:227
+#: gnome-panel/gp-properties-dialog.c:229
 msgctxt "Orientation"
 msgid "Right"
 msgstr "A drecha"
 
-#: gnome-panel/gp-properties-dialog.c:231
+#: gnome-panel/gp-properties-dialog.c:233
 msgctxt "Alignment"
 msgid "Start"
 msgstr "Debuta"
 
-#: gnome-panel/gp-properties-dialog.c:232
+#: gnome-panel/gp-properties-dialog.c:234
 msgctxt "Alignment"
 msgid "Center"
 msgstr "Centrat"
 
-#: gnome-panel/gp-properties-dialog.c:233
+#: gnome-panel/gp-properties-dialog.c:235
 msgctxt "Alignment"
 msgid "End"
 msgstr "Fin"
@@ -881,7 +943,7 @@ msgstr "Afichar los _botons d'amagatge"
 msgid "Arro_ws on hide buttons"
 msgstr "Afichar las _sagetas suls botons d'amagatge"
 
-#: gnome-panel/gp-properties-dialog.ui:331 modules/clock/clock.ui:629
+#: gnome-panel/gp-properties-dialog.ui:331 modules/clock/clock.ui:600
 #: modules/fish/fish.ui:91
 msgid "General"
 msgstr "General"
@@ -934,77 +996,41 @@ msgstr "Drecha"
 msgid "Applets"
 msgstr "Applets"
 
-#. FIXME: We need a title in this case, but we don't know what
-#. * the format should be. Let's put something simple until
-#. * the following bug gets fixed:
-#. * http://bugzilla.gnome.org/show_bug.cgi?id=165132
-#. FIXME: http://bugzilla.gnome.org/show_bug.cgi?id=165132
-#: gnome-panel/libpanel-util/panel-error.c:78
-#: gnome-panel/panel-applet-frame.c:944
-msgid "Error"
-msgstr "Error"
-
-#: gnome-panel/libpanel-util/panel-show.c:45 modules/menu/gp-menu-utils.c:378
-#, c-format
-msgid "Could not open location '%s'"
-msgstr "Impossible de dobrir l'emplaçament '%s'"
-
-#: gnome-panel/panel-applet-frame.c:395
+#: gnome-panel/panel-applet-frame.c:412
 msgid "_Move"
 msgstr "_Desplaçar"
 
-#: gnome-panel/panel-applet-frame.c:402
+#: gnome-panel/panel-applet-frame.c:419
 msgid "_Remove From Panel"
 msgstr "_Suprimir del panèl"
 
-#: gnome-panel/panel-applet-frame.c:907
-#, c-format
-msgid "The panel encountered a problem while loading \"%s\"."
-msgstr "Lo panèl a rencontrat un problèma al moment de cargar \"%s\"."
-
-#: gnome-panel/panel-applet-frame.c:919
-msgid "OK"
-msgstr "Validar"
-
-#: gnome-panel/panel-applet-frame.c:923
-msgid "Do you want to delete the applet from your configuration?"
-msgstr "Volètz suprimir l'applet de vòstra configuracion ?"
-
-#: gnome-panel/panel-applet-frame.c:926
-msgid "D_on't Delete"
-msgstr "_Suprimir pas"
-
-#: gnome-panel/panel-applet-frame.c:927 gnome-panel/panel.c:1249
-msgid "_Delete"
-msgstr "_Suprimir"
-
-#: gnome-panel/panel.c:587
+#: gnome-panel/panel.c:637
 #, c-format
 msgid "Open URL: %s"
 msgstr "Dobrir URL : %s"
 
 #. Translators: %s is a URI
-#: gnome-panel/panel.c:642 modules/menu/gp-bookmarks.c:101
+#: gnome-panel/panel.c:692 modules/menu/gp-bookmarks.c:101
 #: modules/menu/gp-recent-menu.c:134
 #, c-format
 msgid "Open '%s'"
-msgstr "Dobrir '%s'"
+msgstr "Dobrir « %s »"
 
 #. is_exec?
 #. exec
 #. name
-#: gnome-panel/panel.c:697 modules/menu/gp-places-menu.c:423
+#: gnome-panel/panel.c:763 modules/menu/gp-places-menu.c:423
 msgid "Open your personal folder"
 msgstr "Dobrir vòstre repertòri personal"
 
 #. is_exec?
 #. exec
-#: gnome-panel/panel.c:707 modules/menu/gp-places-menu.c:504
+#: gnome-panel/panel.c:773 modules/menu/gp-places-menu.c:504
 msgid "Computer"
 msgstr "Ordenador"
 
 #. name
-#: gnome-panel/panel.c:708 modules/menu/gp-places-menu.c:505
+#: gnome-panel/panel.c:774 modules/menu/gp-places-menu.c:505
 msgid ""
 "Browse all local and remote disks and folders accessible from this computer"
 msgstr ""
@@ -1013,20 +1039,20 @@ msgstr ""
 
 #. is_exec?
 #. exec
-#: gnome-panel/panel.c:716 modules/menu/gp-places-menu.c:558
+#: gnome-panel/panel.c:782 modules/menu/gp-places-menu.c:558
 msgid "Network"
 msgstr "Ret"
 
 #. name
-#: gnome-panel/panel.c:717 modules/menu/gp-places-menu.c:559
+#: gnome-panel/panel.c:783 modules/menu/gp-places-menu.c:559
 msgid "Browse bookmarked and local network locations"
 msgstr "Percor los emplaçaments ret locals e meses en signet"
 
-#: gnome-panel/panel.c:1240
+#: gnome-panel/panel.c:1341
 msgid "Delete this panel?"
 msgstr "Suprimir lo panèl ?"
 
-#: gnome-panel/panel.c:1244
+#: gnome-panel/panel.c:1345
 msgid ""
 "When a panel is deleted, the panel and its\n"
 "settings are lost."
@@ -1034,233 +1060,119 @@ msgstr ""
 "Quand un tablèu de bòrd es suprimit, lo tablèu de bòrd\n"
 "e sos reglatges son perduts."
 
-#: gnome-panel/panel.c:1248 gnome-panel/panel-run-dialog.c:1301
-#: gnome-panel/panel-run-dialog.ui:236
-#: modules/action-button/panel-force-quit.c:214 modules/clock/clock.ui:67
+#: gnome-panel/panel.c:1349 modules/action-button/panel-force-quit.c:214
+#: modules/action-button/panel-run-dialog.c:1346
+#: modules/action-button/panel-run-dialog.ui:236 modules/clock/clock.ui:67
 #: modules/launcher/gp-editor.c:291 modules/launcher/gp-editor.c:466
 #: modules/menu/gp-recent-menu.c:205
 msgid "_Cancel"
 msgstr "_Anullar"
 
-#: gnome-panel/panel-context-menu.c:60
+#: gnome-panel/panel-context-menu.c:83
 msgid "Cannot delete this panel"
 msgstr "Impossible de suprimir aquel panèl"
 
-#: gnome-panel/panel-context-menu.c:61
+#: gnome-panel/panel-context-menu.c:84
 msgid "You must always have at least one panel."
 msgstr "Vos cal totjorn aver al mens un panèl."
 
-#: gnome-panel/panel-context-menu.c:177
+#: gnome-panel/panel-context-menu.c:218
 msgid "_Add to Panel..."
 msgstr "_Apondre al panèl..."
 
-#: gnome-panel/panel-context-menu.c:188
+#: gnome-panel/panel-context-menu.c:229
 #: modules/action-button/gp-lock-screen-menu.ui:13
 #: modules/launcher/custom-launcher-menu.ui:9
 #: modules/launcher/launcher-menu.ui:9
 msgid "_Properties"
 msgstr "_Proprietats"
 
-#: gnome-panel/panel-context-menu.c:195
+#: gnome-panel/panel-context-menu.c:236
 msgid "_Delete This Panel"
 msgstr "_Suprimir aquel panèl"
 
-#: gnome-panel/panel-context-menu.c:207
+#: gnome-panel/panel-context-menu.c:248
 msgid "_New Panel"
 msgstr "Panèl _novèl"
 
-#: gnome-panel/panel-layout.c:1097 gnome-panel/panel-layout.c:1112
-msgid "Cannot create initial panel layout.\n"
-msgstr "Impossible de crear l'agençament inicial del tablèu de bòrd.\n"
-
-#: gnome-panel/panel-run-dialog.c:430
-msgid "Cannot find a terminal, using xterm, even if it may not work"
-msgstr ""
-"Impossible de trobar un terminal, utilizacion de xterm, quitament se es "
-"possible qu'aquò foncione pas"
-
-#: gnome-panel/panel-run-dialog.c:488
-#, c-format
-msgid "Could not run command '%s'"
-msgstr "Impossible d'executar la comanda '%s'"
-
-#: gnome-panel/panel-run-dialog.c:528
-#, c-format
-msgid "Could not convert '%s' from UTF-8"
-msgstr "Impossible de convertir '%s' dempuèi UTF-8"
-
-#: gnome-panel/panel-run-dialog.c:1298
-msgid "Choose a file to append to the command..."
-msgstr "Causissètz un fichièr d'apondre a la comanda..."
-
-#: gnome-panel/panel-run-dialog.c:1302 modules/clock/clock.ui:82
-msgid "_OK"
-msgstr "_Validar"
-
-#: gnome-panel/panel-run-dialog.c:1691 gnome-panel/panel-run-dialog.ui:194
-msgid "Select an application to view its description."
-msgstr "Seleccionar una aplicacion per veire sa descripcion."
-
-#: gnome-panel/panel-run-dialog.c:1729
-#, c-format
-msgid "Will run command: '%s'"
-msgstr "Execucion de : '%s'"
-
-#: gnome-panel/panel-run-dialog.c:1762
-#, c-format
-msgid "URI list dropped on run dialog had wrong format (%d) or length (%d)\n"
-msgstr ""
-"La lista d'URI depausada sus la bóstia de dialòg d'aviada a un marrit format "
-"(%d) o una marrida talha (%d)\n"
-
-#: gnome-panel/panel-run-dialog.ui:8
-msgid "Run Application"
-msgstr "Executar una aplicacion"
-
-#: gnome-panel/panel-run-dialog.ui:45
-msgid "Command icon"
-msgstr "Icòna de la comanda"
-
-#: gnome-panel/panel-run-dialog.ui:46
-msgid "The icon of the command to be run."
-msgstr "L'icòna de la comanda d'executar."
-
-#: gnome-panel/panel-run-dialog.ui:89
-msgid "Run in _terminal"
-msgstr "Executar dins un _terminal"
-
-#: gnome-panel/panel-run-dialog.ui:98
-msgid "Select this box to run the command in a terminal window."
-msgstr ""
-"Seleccionatz aquesta bóstia per executar la comanda dins una fenèstra de "
-"terminal."
-
-#: gnome-panel/panel-run-dialog.ui:110
-msgid "Run with _file..."
-msgstr "Executar amb un _fichièr..."
-
-#: gnome-panel/panel-run-dialog.ui:117
-msgid ""
-"Click this button to browse for a file whose name to append to the command "
-"string."
-msgstr ""
-"Clicatz sus aqueste boton per seleccionar un fichièr d'apondre a la cadena "
-"de comanda."
-
-#: gnome-panel/panel-run-dialog.ui:176
-msgid "List of known applications"
-msgstr "Lista de las aplicacions conegudas"
-
-#: gnome-panel/panel-run-dialog.ui:212
-msgid "Show list of known _applications"
-msgstr "Mòstra la lista de las aplicacions _conegudas"
-
-#: gnome-panel/panel-run-dialog.ui:251
-msgid "_Run"
-msgstr "_Executar"
-
-#: gnome-panel/panel-run-dialog.ui:260
-msgid ""
-"Click this button to run the selected application or the command in the "
-"command entry field."
-msgstr ""
-"Clicatz sus aqueste boton per executar l'aplicacion seleccionada o la "
-"comanda dins lo camp de sasida de la comanda."
+#: gnome-panel/panel-layout.c:1241 gnome-panel/panel-layout.c:1266
+msgid "Cannot create initial panel layout"
+msgstr "Impossible de crear l'agençament inicial del tablèu de bòrd"
 
 #. translators: these string will be shown in MetaCity's switch window
 #. * popup when you pass the focus to a panel
-#: gnome-panel/panel-toplevel.c:1494
+#: gnome-panel/panel-toplevel.c:1468
 msgid "Top Expanded Edge Panel"
 msgstr "Tablèu de bòrd superior de costat espandit"
 
-#: gnome-panel/panel-toplevel.c:1495
+#: gnome-panel/panel-toplevel.c:1469
 msgid "Top Centered Panel"
 msgstr "Tablèu de bòrd superior centrat"
 
-#: gnome-panel/panel-toplevel.c:1496
-#, fuzzy
-#| msgid "Top Centered Panel"
+#: gnome-panel/panel-toplevel.c:1470
 msgid "Top Start Panel"
-msgstr "Tablèu de bòrd superior centrat"
+msgstr "Tablèu de bòrd superior inicial"
 
-#: gnome-panel/panel-toplevel.c:1497
-#, fuzzy
-#| msgid "Top Edge Panel"
+#: gnome-panel/panel-toplevel.c:1471
 msgid "Top End Panel"
-msgstr "Tablèu de bòrd superior de costat"
+msgstr "Tablèu de bòrd superior final"
 
-#: gnome-panel/panel-toplevel.c:1501
+#: gnome-panel/panel-toplevel.c:1475
 msgid "Bottom Expanded Edge Panel"
 msgstr "Tablèu de bòrd inferior de costat espandit"
 
-#: gnome-panel/panel-toplevel.c:1502
+#: gnome-panel/panel-toplevel.c:1476
 msgid "Bottom Centered Panel"
 msgstr "Tablèu de bòrd inferior centrat"
 
-#: gnome-panel/panel-toplevel.c:1503
-#, fuzzy
-#| msgid "Bottom Centered Panel"
+#: gnome-panel/panel-toplevel.c:1477
 msgid "Bottom Start Panel"
-msgstr "Tablèu de bòrd inferior centrat"
+msgstr "Tablèu de bòrd inferior inicial"
 
-#: gnome-panel/panel-toplevel.c:1504
-#, fuzzy
-#| msgid "Bottom Edge Panel"
+#: gnome-panel/panel-toplevel.c:1478
 msgid "Bottom End Panel"
-msgstr "Tablèu de bòrd inferior de costat"
+msgstr "Tablèu de bòrd inferior final"
 
-#: gnome-panel/panel-toplevel.c:1508
+#: gnome-panel/panel-toplevel.c:1482
 msgid "Left Expanded Edge Panel"
 msgstr "Tablèu de bòrd esquèrra de costat espandit"
 
-#: gnome-panel/panel-toplevel.c:1509
+#: gnome-panel/panel-toplevel.c:1483
 msgid "Left Centered Panel"
 msgstr "Tablèu de bòrd esquèrra centrat"
 
-#: gnome-panel/panel-toplevel.c:1510
-#, fuzzy
-#| msgid "Left Centered Panel"
+#: gnome-panel/panel-toplevel.c:1484
 msgid "Left Start Panel"
-msgstr "Tablèu de bòrd esquèrra centrat"
+msgstr "Tablèu de bòrd esquèrra inicial"
 
-#: gnome-panel/panel-toplevel.c:1511
-#, fuzzy
-#| msgid "Left Edge Panel"
+#: gnome-panel/panel-toplevel.c:1485
 msgid "Left End Panel"
-msgstr "Tablèu de bòrd esquèrra de costat"
+msgstr "Tablèu de bòrd esquèrra finial"
 
-#: gnome-panel/panel-toplevel.c:1515
+#: gnome-panel/panel-toplevel.c:1489
 msgid "Right Expanded Edge Panel"
 msgstr "Tablèu de bòrd drech de costat espandit"
 
-#: gnome-panel/panel-toplevel.c:1516
+#: gnome-panel/panel-toplevel.c:1490
 msgid "Right Centered Panel"
 msgstr "Tablèu de bòrd drech centrat"
 
-#: gnome-panel/panel-toplevel.c:1517
-#, fuzzy
-#| msgid "Right Centered Panel"
+#: gnome-panel/panel-toplevel.c:1491
 msgid "Right Start Panel"
-msgstr "Tablèu de bòrd drech centrat"
+msgstr "Tablèu de bòrd drech inicial"
 
-#: gnome-panel/panel-toplevel.c:1518
-#, fuzzy
-#| msgid "Right Edge Panel"
+#: gnome-panel/panel-toplevel.c:1492
 msgid "Right End Panel"
-msgstr "Tablèu de bòrd drech de costat"
+msgstr "Tablèu de bòrd drech final"
 
-#: gnome-panel/panel-util.c:358
-msgid "file"
-msgstr "fichièr"
-
-#: gnome-panel/panel-util.c:470 modules/menu/gp-menu-utils.c:212
+#: gnome-panel/panel-util.c:282 modules/menu/gp-menu-utils.c:213
 msgid "Home"
 msgstr "Repertòri personal"
 
 #. Translators: this is the same string as the one found in
 #. * nautilus
 #. Translators: this is the same string as the one found in nautilus
-#: gnome-panel/panel-util.c:479 modules/menu/gp-menu-utils.c:229
+#: gnome-panel/panel-util.c:291 modules/menu/gp-menu-utils.c:230
 msgid "File System"
 msgstr "Sistèma de fichièrs"
 
@@ -1273,7 +1185,7 @@ msgstr "Sistèma de fichièrs"
 #. * second string is a path. For example, "Trash: some-directory". It
 #. * means that the directory called "some-directory" is in the trash.
 #.
-#: gnome-panel/panel-util.c:693 modules/menu/gp-menu-utils.c:127
+#: gnome-panel/panel-util.c:505 modules/menu/gp-menu-utils.c:128
 #, c-format
 msgid "%1$s: %2$s"
 msgstr "%1$s : %2$s"
@@ -1291,47 +1203,52 @@ msgstr "Anullar"
 msgid "Done"
 msgstr "Terminat"
 
-#: libgnome-panel/gp-module.c:640
+#: libgnome-panel/gp-module.c:691
 #, c-format
 msgid "Could not display help document '%s'"
 msgstr "Impossible d'afichar lo document d'ajuda '%s'"
 
-#: libgnome-panel/gp-module.c:657
+#: libgnome-panel/gp-module.c:708
 msgid "Error displaying help document"
 msgstr "Erreur al moment de l'afichatge del document d'ajuda"
 
-#: libgnome-panel/gp-module.c:697
+#: libgnome-panel/gp-module.c:751
 #, c-format
 msgid "Backend “%s” is not supported."
 msgstr "Backend « %s » pas pres en carga."
 
-#: modules/action-button/gp-action-button-module.c:44
+#: libpanel-util/panel-show.c:45 modules/menu/gp-menu-utils.c:406
+#, c-format
+msgid "Could not open location '%s'"
+msgstr "Impossible de dobrir l'emplaçament '%s'"
+
+#: modules/action-button/gp-action-button-module.c:45
 #: modules/action-button/panel-force-quit.c:223
 msgid "Force Quit"
 msgstr "Forçar sortir"
 
-#: modules/action-button/gp-action-button-module.c:45
+#: modules/action-button/gp-action-button-module.c:46
 #: modules/action-button/gp-force-quit-applet.c:66
 msgid "Force a misbehaving application to quit"
 msgstr "Fòrça una aplicacion qu'a un comportament anormal a quitar"
 
-#: modules/action-button/gp-action-button-module.c:53
+#: modules/action-button/gp-action-button-module.c:54
 #: modules/menu/gp-lock-logout.c:1003
 msgid "Lock Screen"
 msgstr "Verrolhar l'ecran"
 
-#: modules/action-button/gp-action-button-module.c:54
-#: modules/action-button/gp-lock-screen-applet.c:320
+#: modules/action-button/gp-action-button-module.c:55
+#: modules/action-button/gp-lock-screen-applet.c:326
 #: modules/menu/gp-lock-logout.c:1004
 msgid "Protect your computer from unauthorized use"
 msgstr "Interdís las utilizacions pas autorizadas de vòstre ordenador"
 
-#: modules/action-button/gp-action-button-module.c:62
+#: modules/action-button/gp-action-button-module.c:63
 #: modules/menu/gp-lock-logout.c:982
 msgid "Log Out"
 msgstr "Tampar la session"
 
-#: modules/action-button/gp-action-button-module.c:63
+#: modules/action-button/gp-action-button-module.c:64
 #: modules/action-button/gp-logout-applet.c:68
 #: modules/menu/gp-lock-logout.c:983
 msgid "Log out of this session to log in as a different user"
@@ -1339,22 +1256,22 @@ msgstr ""
 "Se desconnècta d'aquesta session per fin de se reconnectar jos un autre "
 "identificant"
 
-#: modules/action-button/gp-action-button-module.c:71
+#: modules/action-button/gp-action-button-module.c:72
 msgid "Run Application..."
 msgstr "Executar una aplicacion..."
 
-#: modules/action-button/gp-action-button-module.c:72
-#: modules/action-button/gp-run-applet.c:64
+#: modules/action-button/gp-action-button-module.c:73
+#: modules/action-button/gp-run-applet.c:66
 msgid "Run an application by typing a command or choosing from a list"
 msgstr ""
 "Avia una aplicacion en sasissent una comanda o en causissent dins la lista"
 
-#: modules/action-button/gp-action-button-module.c:80
+#: modules/action-button/gp-action-button-module.c:81
 #: modules/menu/gp-lock-logout.c:1115
 msgid "Power Off"
 msgstr "Atudar"
 
-#: modules/action-button/gp-action-button-module.c:81
+#: modules/action-button/gp-action-button-module.c:82
 #: modules/action-button/gp-shutdown-applet.c:71
 #: modules/menu/gp-lock-logout.c:1116
 msgid "Power off the computer"
@@ -1362,21 +1279,25 @@ msgstr "Atudar l'ordenador"
 
 #: modules/action-button/gp-force-quit-applet.c:134
 msgid ""
-"Disabled because “disable-force-quit” setting in “org.gnome.gnome-panel."
-"lockdown” GSettings schema is set to true."
+"Disabled because “disable-force-quit” setting in “org.gnome.gnome-"
+"panel.lockdown” GSettings schema is set to true."
 msgstr ""
+"Desactivat perque lo paramètre « disable-force-quit » dins l'esquèma "
+"GSettings « org.gnome.gnome-panel.lockdown » es a « true »."
 
-#: modules/action-button/gp-lock-screen-applet.c:280
-#: modules/launcher/gp-launcher-applet.c:850
-#: modules/launcher/gp-launcher-applet.c:866
+#: modules/action-button/gp-lock-screen-applet.c:286
+#: modules/launcher/gp-launcher-applet.c:872
+#: modules/launcher/gp-launcher-applet.c:888
 msgid "Could not launch application"
 msgstr "Impossible d'executar l'aplicacion"
 
-#: modules/action-button/gp-lock-screen-applet.c:434
+#: modules/action-button/gp-lock-screen-applet.c:440
 msgid ""
-"Disabled because “disable-lock-screen” setting in “org.gnome.desktop."
-"lockdown” GSettings schema is set to true."
+"Disabled because “disable-lock-screen” setting in "
+"“org.gnome.desktop.lockdown” GSettings schema is set to true."
 msgstr ""
+"Desactivat perque lo paramètre « disable-lock-screen » dins l'esquèma "
+"GSettings « org.gnome.desktop.lockdown » es definit a « true »."
 
 #: modules/action-button/gp-lock-screen-menu.ui:5
 msgid "_Lock Screen"
@@ -1392,13 +1313,17 @@ msgid ""
 "Disabled because “disable-log-out” setting in “org.gnome.desktop.lockdown” "
 "GSettings schema is set to true."
 msgstr ""
+"Desactivat perque lo paramètre « disable-log-out » dins l'esquèma GSettings "
+"« org.gnome.desktop.lockdown » es a « true »."
 
-#: modules/action-button/gp-run-applet.c:135
+#: modules/action-button/gp-run-applet.c:134
 #: modules/launcher/gp-launcher-module.c:33
 msgid ""
-"Disabled because “disable-command-line” setting in “org.gnome.desktop."
-"lockdown” GSettings schema is set to true."
+"Disabled because “disable-command-line” setting in "
+"“org.gnome.desktop.lockdown” GSettings schema is set to true."
 msgstr ""
+"Desactivat perque lo paramètre « disable-command-line » dins l'esquèma "
+"GSettings « org.gnome.desktop.lockdown » es a « true »."
 
 #: modules/action-button/panel-force-quit.c:71
 msgid ""
@@ -1424,6 +1349,105 @@ msgstr ""
 msgid "_Force quit"
 msgstr "_Forçar a quitar"
 
+#: modules/action-button/panel-run-dialog.c:438
+msgid "Cannot find a terminal, using xterm, even if it may not work"
+msgstr ""
+"Impossible de trobar un terminal, utilizacion de xterm, quitament se es "
+"possible qu'aquò foncione pas"
+
+#: modules/action-button/panel-run-dialog.c:496
+#, c-format
+msgid "Could not run command '%s'"
+msgstr "Impossible d'executar la comanda '%s'"
+
+#: modules/action-button/panel-run-dialog.c:571
+#, c-format
+msgid "Could not convert '%s' from UTF-8"
+msgstr "Impossible de convertir '%s' dempuèi UTF-8"
+
+#: modules/action-button/panel-run-dialog.c:1343
+msgid "Choose a file to append to the command..."
+msgstr "Causissètz un fichièr d'apondre a la comanda..."
+
+#: modules/action-button/panel-run-dialog.c:1347 modules/clock/clock.ui:82
+msgid "_OK"
+msgstr "_Validar"
+
+#: modules/action-button/panel-run-dialog.c:1736
+#: modules/action-button/panel-run-dialog.ui:194
+msgid "Select an application to view its description."
+msgstr "Seleccionar una aplicacion per veire sa descripcion."
+
+#: modules/action-button/panel-run-dialog.c:1774
+#, c-format
+msgid "Will run command: '%s'"
+msgstr "Execucion de : '%s'"
+
+#: modules/action-button/panel-run-dialog.c:1807
+#, c-format
+msgid "URI list dropped on run dialog had wrong format (%d) or length (%d)\n"
+msgstr ""
+"La lista d'URI depausada sus la bóstia de dialòg d'aviada a un marrit format "
+"(%d) o una marrida talha (%d)\n"
+
+#: modules/action-button/panel-run-dialog.c:1979
+msgid "file"
+msgstr "fichièr"
+
+#: modules/action-button/panel-run-dialog.ui:8
+msgid "Run Application"
+msgstr "Executar una aplicacion"
+
+#: modules/action-button/panel-run-dialog.ui:45
+msgid "Command icon"
+msgstr "Icòna de la comanda"
+
+#: modules/action-button/panel-run-dialog.ui:46
+msgid "The icon of the command to be run."
+msgstr "L'icòna de la comanda d'executar."
+
+#: modules/action-button/panel-run-dialog.ui:89
+msgid "Run in _terminal"
+msgstr "Executar dins un _terminal"
+
+#: modules/action-button/panel-run-dialog.ui:98
+msgid "Select this box to run the command in a terminal window."
+msgstr ""
+"Seleccionatz aquesta bóstia per executar la comanda dins una fenèstra de "
+"terminal."
+
+#: modules/action-button/panel-run-dialog.ui:110
+msgid "Run with _file..."
+msgstr "Executar amb un _fichièr..."
+
+#: modules/action-button/panel-run-dialog.ui:117
+msgid ""
+"Click this button to browse for a file whose name to append to the command "
+"string."
+msgstr ""
+"Clicatz sus aqueste boton per seleccionar un fichièr d'apondre a la cadena "
+"de comanda."
+
+#: modules/action-button/panel-run-dialog.ui:176
+msgid "List of known applications"
+msgstr "Lista de las aplicacions conegudas"
+
+#: modules/action-button/panel-run-dialog.ui:212
+msgid "Show list of known _applications"
+msgstr "Mòstra la lista de las aplicacions _conegudas"
+
+#: modules/action-button/panel-run-dialog.ui:251
+msgid "_Run"
+msgstr "_Executar"
+
+#: modules/action-button/panel-run-dialog.ui:260
+msgid ""
+"Click this button to run the selected application or the command in the "
+"command entry field."
+msgstr ""
+"Clicatz sus aqueste boton per executar l'aplicacion seleccionada o la "
+"comanda dins lo camp de sasida de la comanda."
+
 #. Translators: This is a strftime format string.
 #. * It is used to display the time in 12-hours format
 #. * (eg, like in the US: 8:10 am). The %p expands to
@@ -1433,7 +1457,7 @@ msgstr "_Forçar a quitar"
 #. * It is used to display the time in 12-hours format (eg, like
 #. * in the US: 8:10 am). The %p expands to am/pm.
 #.
-#: modules/clock/calendar-window.c:269 modules/clock/clock-location-tile.c:498
+#: modules/clock/calendar-window.c:415 modules/clock/clock-location-tile.c:595
 msgid "%l:%M %p"
 msgstr "%lh%M %p"
 
@@ -1448,8 +1472,8 @@ msgstr "%lh%M %p"
 #. * It is used to display the time in 24-hours format (eg, like
 #. * in France: 20:10).
 #.
-#: modules/clock/calendar-window.c:275 modules/clock/clock-location-tile.c:461
-#: modules/clock/clock-location-tile.c:505
+#: modules/clock/calendar-window.c:421 modules/clock/clock-location-tile.c:557
+#: modules/clock/clock-location-tile.c:602
 msgid "%H:%M"
 msgstr "%Hh%M"
 
@@ -1457,146 +1481,184 @@ msgstr "%Hh%M"
 #. * It is used to display the start date of an appointment, in
 #. * the most abbreviated way possible.
 #.
-#: modules/clock/calendar-window.c:282
+#: modules/clock/calendar-window.c:429
+#, no-c-format
 msgid "%b %d"
 msgstr "%b %d"
 
-#: modules/clock/calendar-window.c:787
-msgid "Tasks"
-msgstr "Prètzfaches"
-
-#: modules/clock/calendar-window.c:787 modules/clock/calendar-window.c:970
-#: modules/clock/calendar-window.c:1568
+#: modules/clock/calendar-window.c:935 modules/clock/calendar-window.c:1124
+#: modules/clock/calendar-window.c:1627
 msgid "Edit"
 msgstr "Edicion"
 
-#: modules/clock/calendar-window.c:910
+#: modules/clock/calendar-window.c:940
+msgid "Tasks"
+msgstr "Prètzfaches"
+
+#: modules/clock/calendar-window.c:1063
 msgid "All Day"
 msgstr "Tota la jornada"
 
-#: modules/clock/calendar-window.c:1054
+#: modules/clock/calendar-window.c:1212
 msgid "Appointments"
 msgstr "Rendètz-vos"
 
-#: modules/clock/calendar-window.c:1079
+#: modules/clock/calendar-window.c:1237
 msgid "Birthdays and Anniversaries"
 msgstr "Anniversaris"
 
-#: modules/clock/calendar-window.c:1104
+#: modules/clock/calendar-window.c:1262
 msgid "Weather Information"
 msgstr "Informacions meteorologicas"
 
-#: modules/clock/calendar-window.c:1568 modules/clock/clock.ui:748
+#: modules/clock/calendar-window.c:1622
+msgid "Click to prevent further changes to timezone"
+msgstr "Clicatz per empachar d'autres cambiaments del fus orari"
+
+#: modules/clock/calendar-window.c:1623
+msgid "Click to make changes to timezone"
+msgstr "Clicatz per far de cambiaments de fus orari"
+
+#: modules/clock/calendar-window.c:1632 modules/clock/clock.ui:719
 msgid "Locations"
 msgstr "Emplaçaments"
 
-#: modules/clock/calendar-window.c:1827
+#: modules/clock/calendar-window.c:1947
 msgid "Calendar"
 msgstr "Calendièr"
 
 #. Translators: This is a strftime format string.
 #. * It is used to display a date.
 #.
-#: modules/clock/clock-applet.c:174
+#: modules/clock/clock-applet.c:175
 msgid "%A %B %d (%Z)"
 msgstr "%A %d %B (%Z)"
 
-#: modules/clock/clock-applet.c:183
+#: modules/clock/clock-applet.c:184
 msgid "Click to hide your appointments and tasks"
 msgstr "Clicatz per amagar vòstres rendètz-vos e vòstres prètzfaches"
 
-#: modules/clock/clock-applet.c:186
+#: modules/clock/clock-applet.c:187
 msgid "Click to view your appointments and tasks"
 msgstr "Clicatz per afichar vòstres rendètz-vos e prètzfaches"
 
-#: modules/clock/clock-applet.c:190
+#: modules/clock/clock-applet.c:191
 msgid "Click to hide month calendar"
 msgstr "Clicatz per amagar lo calendièr mensuel"
 
-#: modules/clock/clock-applet.c:193
+#: modules/clock/clock-applet.c:194
 msgid "Click to view month calendar"
 msgstr "Clicatz per afichar lo calendièr del mes"
 
 #. Done!
-#: modules/clock/clock-applet.c:725
+#: modules/clock/clock-applet.c:731
 msgid "Computer Clock"
 msgstr "Relòtge de l'ordenador"
 
-#: modules/clock/clock-applet.c:811
+#: modules/clock/clock-applet.c:814
 msgid "Failed to open the time settings"
 msgstr "La dobertura dels reglatges de l'ora a fracassat"
 
 # Window title
-#: modules/clock/clock-applet.c:1430
+#: modules/clock/clock-applet.c:1457
 msgid "Choose Location"
 msgstr "Causir l'emplaçament"
 
 # Window title
-#: modules/clock/clock-applet.c:1509
+#: modules/clock/clock-applet.c:1534
 msgid "Edit Location"
 msgstr "Editar l'emplaçament"
 
-#: modules/clock/clock-applet.c:1545 modules/clock/clock-applet.c:1553
+#: modules/clock/clock-applet.c:1570 modules/clock/clock-applet.c:1578
 msgid "Default"
 msgstr "Per defaut"
 
-#: modules/clock/clock-applet.c:1546
+#: modules/clock/clock-applet.c:1571
 msgid "Kelvin"
 msgstr "Kelvin"
 
-#: modules/clock/clock-applet.c:1547
+#: modules/clock/clock-applet.c:1572
 msgid "Celsius"
 msgstr "Celsius"
 
-#: modules/clock/clock-applet.c:1548
+#: modules/clock/clock-applet.c:1573
 msgid "Fahrenheit"
 msgstr "Fahrenheit"
 
-#: modules/clock/clock-applet.c:1554
+#: modules/clock/clock-applet.c:1579
 msgid "Meters per second (m/s)"
 msgstr "Mètres per segonda (m/s)"
 
-#: modules/clock/clock-applet.c:1555
+#: modules/clock/clock-applet.c:1580
 msgid "Kilometers per hour (kph)"
 msgstr "Kilomètres per ora (km/h)"
 
-#: modules/clock/clock-applet.c:1556
+#: modules/clock/clock-applet.c:1581
 msgid "Miles per hour (mph)"
 msgstr "Milas per ora (mph)"
 
-#: modules/clock/clock-applet.c:1557
+#: modules/clock/clock-applet.c:1582
 msgid "Knots"
 msgstr "Nosèls"
 
-#: modules/clock/clock-applet.c:1558
+#: modules/clock/clock-applet.c:1583
 msgid "Beaufort scale"
 msgstr "Escala de Beaufort"
 
-#: modules/clock/clock-applet.c:1611
+#: modules/clock/clock-applet.c:1636
 msgid "City Name"
 msgstr "Nom de la vila"
 
-#: modules/clock/clock-applet.c:1615
+#: modules/clock/clock-applet.c:1640
 msgid "City Time Zone"
 msgstr "Fus orari de la vila"
 
-#: modules/clock/clock-location-tile.c:177
+#. Recurse, adding the ADM1 name to the country name
+#. Translators: this is the name of a location followed by a region, for example:
+#. * 'London, United Kingdom'
+#. * You shouldn't need to translate this string unless the language has a different comma.
+#.
+#. <location> with no parent <city>
+#. Translators: this is the name of a location followed by a region, for example:
+#. * 'London, United Kingdom'
+#. * You shouldn't need to translate this string unless the language has a different comma.
+#.
+#: modules/clock/clock-location-entry.c:553
+#: modules/clock/clock-location-entry.c:582
+#: modules/clock/clock-location-tile.c:698
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: modules/clock/clock-location-entry.c:860
+msgid "Loading…"
+msgstr "Cargament…"
+
+#: modules/clock/clock-location-tile.c:255
 msgid "Failed to set the system timezone"
 msgstr "Lo reglatge del fus orari del sistèma a fracassat"
 
-#: modules/clock/clock-location-tile.c:225
-msgid "<small>Set...</small>"
-msgstr "<small>Definir...</small>"
-
-#: modules/clock/clock-location-tile.c:226
-msgid "<small>Set</small>"
-msgstr "<small>Definir</small>"
-
-#: modules/clock/clock-location-tile.c:302
+#: modules/clock/clock-location-tile.c:342
 msgid "Set location as current location and use its timezone for this computer"
 msgstr ""
 "Definir aqueste emplaçament coma lo actual e utilizar son fus orari per "
 "aqueste ordenador"
+
+#: modules/clock/clock-location-tile.c:344
+msgid "Set location as current location"
+msgstr "Definir aqueste emplaçament coma localizacion actuala"
+
+#: modules/clock/clock-location-tile.c:346
+msgid ""
+"Click “Unlock” to set location as current location and use its timezone for "
+"this computer"
+msgstr ""
+"Clicatz sus « Desblocar » per definir la localizacion actuala e utilizar son "
+"fus orari per aqueste ordenador"
+
+#: modules/clock/clock-location-tile.c:424
+msgid "Set"
+msgstr "Definir"
 
 #
 #. Translators: This is a strftime format string.
@@ -1605,7 +1667,7 @@ msgstr ""
 #. * weekday differs from the weekday at the location
 #. * (the %A expands to the weekday). The %p expands to
 #. * am/pm.
-#: modules/clock/clock-location-tile.c:438
+#: modules/clock/clock-location-tile.c:534
 msgid "%l:%M <small>%p (%A)</small>"
 msgstr "%lh%M <small>%p (%A)</small>"
 
@@ -1615,7 +1677,7 @@ msgstr "%lh%M <small>%p (%A)</small>"
 #. * (eg, like in France: 20:10), when the local
 #. * weekday differs from the weekday at the location
 #. * (the %A expands to the weekday).
-#: modules/clock/clock-location-tile.c:446
+#: modules/clock/clock-location-tile.c:542
 msgid "%H:%M <small>(%A)</small>"
 msgstr "%Hh%M <small>(%A)</small>"
 
@@ -1624,22 +1686,17 @@ msgstr "%Hh%M <small>(%A)</small>"
 #. * It is used to display the time in 12-hours format
 #. * (eg, like in the US: 8:10 am). The %p expands to
 #. * am/pm.
-#: modules/clock/clock-location-tile.c:455
+#: modules/clock/clock-location-tile.c:551
 msgid "%l:%M <small>%p</small>"
 msgstr "%lh%M <small>%p</small>"
 
-#: modules/clock/clock-location-tile.c:614
-#, c-format
-msgid "%s, %s"
-msgstr "%s, %s"
-
 #. Translators: The two strings are temperatures.
-#: modules/clock/clock-location-tile.c:627
+#: modules/clock/clock-location-tile.c:711
 #, c-format
 msgid "%s, feels like %s"
 msgstr "%s, sensacion %s"
 
-#: modules/clock/clock-location-tile.c:648
+#: modules/clock/clock-location-tile.c:732
 #, c-format
 msgid "Sunrise: %s / Sunset: %s"
 msgstr "Levar del solelh : %s / Colcar : %s"
@@ -1681,120 +1738,116 @@ msgstr "Nòrd"
 msgid "South"
 msgstr "Sud"
 
-#: modules/clock/clock.ui:206 modules/clock/clock.ui:221
-msgid "(optional)"
-msgstr "(facultatiu)"
-
-#: modules/clock/clock.ui:265
+#: modules/clock/clock.ui:162
 msgid "_Location Name:"
 msgstr "Nom de _l'emplaçament :"
 
-#: modules/clock/clock.ui:278
-msgid "L_atitude:"
-msgstr "L_atitud :"
-
-#: modules/clock/clock.ui:292
-msgid "L_ongitude:"
-msgstr "L_ongitud :"
-
 #. Languages that have a single word that translates as either 'state' or 'province' should use that instead of 'region'.
-#: modules/clock/clock.ui:308
+#: modules/clock/clock.ui:177
 msgid ""
 "Type a city, region, or country name and then select a match from the pop-up."
 msgstr ""
 "Sasissètz un nom de vila, de region o de país, puèi causissètz una "
 "correspondéncia dins la lista qu'aparais."
 
-#: modules/clock/clock.ui:325
-msgid "_Timezone:"
-msgstr "_Fus orari :"
+#: modules/clock/clock.ui:194
+msgid "L_atitude:"
+msgstr "L_atitud :"
 
-#: modules/clock/clock.ui:360
+#: modules/clock/clock.ui:207
+msgid "L_ongitude:"
+msgstr "L_ongitud :"
+
+#: modules/clock/clock.ui:249 modules/clock/clock.ui:293
+msgid "(optional)"
+msgstr "(facultatiu)"
+
+#: modules/clock/clock.ui:331
 msgid "Clock Preferences"
 msgstr "Preferéncias pel relòtge"
 
-#: modules/clock/clock.ui:376 modules/fish/fish.ui:36
+#: modules/clock/clock.ui:347 modules/fish/fish.ui:36
 msgid "_Help"
 msgstr "_Ajuda"
 
-#: modules/clock/clock.ui:391
+#: modules/clock/clock.ui:362
 msgid "Time _Settings"
 msgstr "_Reglatge de l'ora"
 
-#: modules/clock/clock.ui:406 modules/fish/fish-applet.c:566
-#: modules/fish/fish.ui:51 modules/launcher/gp-launcher-properties.c:680
+#: modules/clock/clock.ui:377 modules/fish/fish-applet.c:567
+#: modules/fish/fish.ui:51 modules/launcher/gp-launcher-properties.c:688
 #: modules/wncklet/window-list.ui:285 modules/wncklet/workspace-switcher.ui:37
 msgid "_Close"
 msgstr "_Tampar"
 
-#: modules/clock/clock.ui:451
+#: modules/clock/clock.ui:421
 msgid "Clock Format"
 msgstr "Format del relòtge"
 
 #
 # L'accès aux chiffres requiert la touche Maj sur un clavier Azerty
-#: modules/clock/clock.ui:470
+#: modules/clock/clock.ui:441
 msgid "_12 hour format"
 msgstr "Format _12 oras"
 
 #
-#: modules/clock/clock.ui:487
+#: modules/clock/clock.ui:458
 msgid "_24 hour format"
 msgstr "Format _24 oras"
 
-#: modules/clock/clock.ui:527
+#: modules/clock/clock.ui:497
 msgid "Panel Display"
 msgstr "Afichatge del tablèu de bòrd"
 
-#: modules/clock/clock.ui:547
+#: modules/clock/clock.ui:518
 msgid "Show the _date"
 msgstr "Afichar la _data"
 
-#: modules/clock/clock.ui:563
+#: modules/clock/clock.ui:534
 msgid "Show seco_nds"
 msgstr "Afichar las sego_ndas"
 
-#: modules/clock/clock.ui:579
+#: modules/clock/clock.ui:550
 msgid "Show _weather"
 msgstr "Afichar la _metèo"
 
-#: modules/clock/clock.ui:595
+#: modules/clock/clock.ui:566
 msgid "Show _temperature"
 msgstr "Afichar la _temperatura"
 
-#: modules/clock/clock.ui:682
+#: modules/clock/clock.ui:653
 msgid "_Add"
 msgstr "_Apondre"
 
-#: modules/clock/clock.ui:697
+#: modules/clock/clock.ui:668
 msgid "_Edit"
 msgstr "_Edicion"
 
-#: modules/clock/clock.ui:712
+#: modules/clock/clock.ui:683
 msgid "_Remove"
 msgstr "_Suprimir"
 
-#: modules/clock/clock.ui:773
+#: modules/clock/clock.ui:743
 msgid "Display"
 msgstr "Afichatge"
 
-#: modules/clock/clock.ui:805
+#: modules/clock/clock.ui:776
 msgid "_Visibility unit:"
 msgstr "Unitat de _visibilitat :"
 
-#: modules/clock/clock.ui:828
+#: modules/clock/clock.ui:799
 msgid "_Pressure unit:"
 msgstr "Unitat de _pression :"
 
-#: modules/clock/clock.ui:864
+#: modules/clock/clock.ui:835
 msgid "_Temperature unit:"
 msgstr "Unitat de _temperatura :"
 
-#: modules/clock/clock.ui:878
+#: modules/clock/clock.ui:849
 msgid "_Wind speed unit:"
 msgstr "Unitat de _velocitat del vent :"
 
-#: modules/clock/clock.ui:910
+#: modules/clock/clock.ui:894
 msgid "Weather"
 msgstr "Metèo"
 
@@ -1841,16 +1894,16 @@ msgstr ""
 "\n"
 "Detalhs : %s"
 
-#: modules/fish/fish-applet.c:565
+#: modules/fish/fish-applet.c:566
 msgid "_Speak again"
 msgstr "_Repetir"
 
-#: modules/fish/fish-applet.c:637
+#: modules/fish/fish-applet.c:638
 #, c-format
 msgid "The configured command is not working and has been replaced by: %s"
 msgstr "La comanda configurada marcha pas e es estat remplaçada per : %s"
 
-#: modules/fish/fish-applet.c:666
+#: modules/fish/fish-applet.c:667
 #, c-format
 msgid ""
 "Unable to execute '%s'\n"
@@ -1861,7 +1914,7 @@ msgstr ""
 "\n"
 "Detalhs : %s"
 
-#: modules/fish/fish-applet.c:682
+#: modules/fish/fish-applet.c:683
 #, c-format
 msgid ""
 "Unable to read from '%s'\n"
@@ -1872,15 +1925,15 @@ msgstr ""
 "\n"
 "Detalhs : %s"
 
-#: modules/fish/fish-applet.c:1065
+#: modules/fish/fish-applet.c:1066
 msgid "The water needs changing"
 msgstr "L'aiga a besonh d'èsser cambiada"
 
-#: modules/fish/fish-applet.c:1067
+#: modules/fish/fish-applet.c:1068
 msgid "Look at today's date!"
 msgstr "Agachatz la data d'uèi !"
 
-#: modules/fish/fish-applet.c:1161
+#: modules/fish/fish-applet.c:1162
 #, c-format
 msgid "%s the Fish, the fortune teller"
 msgstr "%s lo peis, l'endevinaire"
@@ -1923,7 +1976,7 @@ msgstr "_Pausa per imatge :"
 
 #: modules/fish/fish.ui:332
 msgid "seconds"
-msgstr "milisegondas"
+msgstr "segondas"
 
 #: modules/fish/fish.ui:349
 msgid "_Rotate on vertical panels"
@@ -2026,20 +2079,20 @@ msgstr "Nom de l'icòna :"
 msgid "Show standard icons only"
 msgstr "Afichar unicament las icònas estandardas"
 
-#: modules/launcher/gp-launcher-applet.c:132 modules/menu/gp-menu-module.c:56
+#: modules/launcher/gp-launcher-applet.c:133 modules/menu/gp-menu-module.c:56
 msgid "(empty)"
 msgstr "(void)"
 
-#: modules/launcher/gp-launcher-applet.c:862
+#: modules/launcher/gp-launcher-applet.c:884
 #, c-format
 msgid "Can not execute “%s” command line."
 msgstr "Impossible d'executar la comanda « %s »."
 
-#: modules/launcher/gp-launcher-applet.c:885
+#: modules/launcher/gp-launcher-applet.c:907
 msgid "Could not open location"
 msgstr "Impossible de dobrir l'emplaçament"
 
-#: modules/launcher/gp-launcher-applet.c:1008
+#: modules/launcher/gp-launcher-applet.c:1034
 #, c-format
 msgid "Failed to load key file “%s”: %s"
 msgstr "Impossible de cargar lo fichièr clau « %s » : %s"
@@ -2064,46 +2117,46 @@ msgstr "Copie un aviador dempuèi lo menú d'aplicacions"
 msgid "Could not save launcher"
 msgstr "Impossible d'enregistrar l'aviador"
 
-#: modules/launcher/gp-launcher-properties.c:672
+#: modules/launcher/gp-launcher-properties.c:680
 msgid "_Revert"
 msgstr "_Tornar en arrièr"
 
-#: modules/launcher/gp-launcher-properties.c:692
+#: modules/launcher/gp-launcher-properties.c:700
 msgid "Launcher Properties"
 msgstr "Proprietats de l'aviador"
 
-#: modules/launcher/gp-launcher-utils.c:56
+#: modules/launcher/gp-launcher-utils.c:58
 #, c-format
 msgid "Launcher does not start with required “%s” group."
-msgstr ""
+msgstr "L’aviador comença pas amb lo grop requerit « %s »."
 
-#: modules/launcher/gp-launcher-utils.c:74
+#: modules/launcher/gp-launcher-utils.c:78
 #, c-format
 msgid "Launcher has invalid Type key value “%s”."
-msgstr ""
+msgstr "L’aviador a una valor per la clau Type invalida « %s »."
 
-#: modules/launcher/gp-launcher-utils.c:156
+#: modules/launcher/gp-launcher-utils.c:162
 msgid "The icon of the launcher is not set."
 msgstr "La talha de l'aviador es pas definida."
 
-#: modules/launcher/gp-launcher-utils.c:164
+#: modules/launcher/gp-launcher-utils.c:172
 msgid "The type of the launcher is not set."
 msgstr "Lo tipe de l'aviador es pas definit."
 
-#: modules/launcher/gp-launcher-utils.c:173
+#: modules/launcher/gp-launcher-utils.c:183
 #, c-format
 msgid "The type of the launcher must be “%s” or “%s”."
 msgstr "Lo tipe de l'aviador deu èsser « %s » o « %s »."
 
-#: modules/launcher/gp-launcher-utils.c:183
+#: modules/launcher/gp-launcher-utils.c:195
 msgid "The name of the launcher is not set."
 msgstr "Lo nom de l'aviador es pas definit."
 
-#: modules/launcher/gp-launcher-utils.c:193
+#: modules/launcher/gp-launcher-utils.c:207
 msgid "The command of the launcher is not set."
 msgstr "La comanda de l'aviador es pas definida."
 
-#: modules/launcher/gp-launcher-utils.c:198
+#: modules/launcher/gp-launcher-utils.c:214
 msgid "The location of the launcher is not set."
 msgstr "La posicion de l'aviador es pas indicada."
 
@@ -2139,70 +2192,70 @@ msgstr "Reaviar"
 msgid "Restart the computer"
 msgstr "Reaviar l'ordenador"
 
-#: modules/menu/gp-menu-bar-applet.c:145
+#: modules/menu/gp-menu-bar-applet.c:152
 msgid "Applications"
 msgstr "Aplicacions"
 
-#: modules/menu/gp-menu-bar-applet.c:150
+#: modules/menu/gp-menu-bar-applet.c:157
 msgid "Browse and run installed applications"
 msgstr "Percórrer e aviar los logicials installats"
 
-#: modules/menu/gp-menu-bar-applet.c:185
-#: modules/menu/gp-menu-button-applet.c:199 modules/menu/gp-menu-module.c:462
+#: modules/menu/gp-menu-bar-applet.c:192
+#: modules/menu/gp-menu-button-applet.c:199 modules/menu/gp-menu-module.c:464
 msgid "Places"
 msgstr "Acorchis"
 
-#: modules/menu/gp-menu-bar-applet.c:189
+#: modules/menu/gp-menu-bar-applet.c:196
 msgid "Access documents, folders and network places"
 msgstr "Accedir a vòstres documents, repertòris e emplaçaments ret"
 
-#: modules/menu/gp-menu-bar-applet.c:225
+#: modules/menu/gp-menu-bar-applet.c:232
 msgid "System"
 msgstr "Sistèma"
 
-#: modules/menu/gp-menu-bar-applet.c:229
+#: modules/menu/gp-menu-bar-applet.c:236
 msgid "Change system appearance and behavior, or get help"
 msgstr "Modificar lo compòrtament o l'aparéncia del sistèma o obténer d'ajuda"
 
-#: modules/menu/gp-menu-bar-applet.c:279
-#: modules/menu/gp-menu-button-applet.c:486
+#: modules/menu/gp-menu-bar-applet.c:286
+#: modules/menu/gp-menu-button-applet.c:494
 #, c-format
 msgid "Please install the '%s' application."
 msgstr "Merces d'installar l'aplicacion « %s »."
 
-#: modules/menu/gp-menu-module.c:375
+#: modules/menu/gp-menu-module.c:377
 msgid "Main Menu"
 msgstr "Menú principal"
 
-#: modules/menu/gp-menu-module.c:376
+#: modules/menu/gp-menu-module.c:378
 msgid "The main GNOME menu"
 msgstr "Lo menú principal GNOME"
 
-#: modules/menu/gp-menu-module.c:382
+#: modules/menu/gp-menu-module.c:384
 msgid "Menu Button"
 msgstr "Boton de menú"
 
-#: modules/menu/gp-menu-module.c:383
+#: modules/menu/gp-menu-module.c:385
 msgid "A custom menu button"
 msgstr "Una barra de menú personalizada"
 
-#: modules/menu/gp-menu-module.c:391
+#: modules/menu/gp-menu-module.c:393
 msgid "Menu Bar"
 msgstr "Barra de menús"
 
-#: modules/menu/gp-menu-module.c:392
+#: modules/menu/gp-menu-module.c:394
 msgid "A custom menu bar"
 msgstr "Una barra de menús personalizada"
 
-#: modules/menu/gp-menu-module.c:398
+#: modules/menu/gp-menu-module.c:400
 msgid "User menu"
 msgstr "Menú personal"
 
-#: modules/menu/gp-menu-module.c:399
+#: modules/menu/gp-menu-module.c:401
 msgid "Menu to change your settings and log out"
 msgstr "Menú per modificar vòstres reglatges e vòstra disponibilitat en linha"
 
-#: modules/menu/gp-menu-utils.c:441
+#: modules/menu/gp-menu-utils.c:469
 #, c-format
 msgid "Could not launch '%s'"
 msgstr "Impossible d'aviar « %s »"
@@ -2346,30 +2399,30 @@ msgstr "Un separador per organizar los elements del panèl"
 
 #: modules/status-notifier/sn-module.c:33
 msgid "Status Notifier Host"
-msgstr ""
+msgstr "Maquina del notificador d’estat"
 
 #: modules/status-notifier/sn-module.c:34
 msgid "Display all Status Notifier Items"
-msgstr ""
+msgstr "Mostrar totes los elements de notificacion d’estat"
 
-#: modules/wncklet/showdesktop.c:71
+#: modules/wncklet/showdesktop.c:73
 #, c-format
 msgid "Failed to load %s: %s\n"
 msgstr "Lo cargament de %s a pas capitat : %s\n"
 
-#: modules/wncklet/showdesktop.c:72
+#: modules/wncklet/showdesktop.c:74
 msgid "Icon not found"
 msgstr "Icòna pas trobada"
 
-#: modules/wncklet/showdesktop.c:103
+#: modules/wncklet/showdesktop.c:105
 msgid "Click here to restore hidden windows."
 msgstr "Clicatz aicí per restablir las fenèstras amagadas."
 
-#: modules/wncklet/showdesktop.c:105
+#: modules/wncklet/showdesktop.c:107
 msgid "Click here to hide all windows and show the desktop."
 msgstr "Clicatz aicí per amagar totas las fenèstras e afichar lo burèu."
 
-#: modules/wncklet/showdesktop.c:136
+#: modules/wncklet/showdesktop.c:138
 msgid ""
 "Your window manager does not support the show desktop button, or you are not "
 "running a window manager."
@@ -2377,7 +2430,7 @@ msgstr ""
 "Vòstre gestionari de fenèstra gerís pas lo boton de visualizacion del burèu "
 "o cap de gestionari de fenèstras fonciona ara."
 
-#: modules/wncklet/showdesktop.c:333
+#: modules/wncklet/showdesktop.c:313
 msgid "Show Desktop Button"
 msgstr "Boton de mostrada del burèu"
 
@@ -2425,7 +2478,7 @@ msgstr "Restablir dins l'_espaci de trabalh actual"
 msgid "Restore to na_tive workspace"
 msgstr "Restablir dins l'espaci de trabalh _original"
 
-#: modules/wncklet/window-menu.c:170 modules/wncklet/wncklet-module.c:55
+#: modules/wncklet/window-menu.c:171 modules/wncklet/wncklet-module.c:55
 msgid "Window Selector"
 msgstr "Seleccionador de fenèstras"
 
@@ -2457,14 +2510,14 @@ msgstr "Seleccionador d'espacis de trabalh"
 msgid "Switch between workspaces"
 msgstr "Seleccionar un espaci de trabalh"
 
-#: modules/wncklet/workspace-switcher.c:578
-#: modules/wncklet/workspace-switcher.c:754
+#: modules/wncklet/workspace-switcher.c:579
+#: modules/wncklet/workspace-switcher.c:768
 #: modules/wncklet/workspace-switcher.ui:145
 msgid "rows"
 msgstr "linhas"
 
-#: modules/wncklet/workspace-switcher.c:578
-#: modules/wncklet/workspace-switcher.c:754
+#: modules/wncklet/workspace-switcher.c:579
+#: modules/wncklet/workspace-switcher.c:768
 msgid "columns"
 msgstr "colomnas"
 
@@ -2508,6 +2561,15 @@ msgstr "Afichar lo _nom dels espacis de trabalh dins lo seleccionador"
 #: modules/wncklet/workspace-switcher.ui:309
 msgid "Workspaces"
 msgstr "Espacis de trabalh"
+
+#~ msgid "<small>Set...</small>"
+#~ msgstr "<small>Definir...</small>"
+
+#~ msgid "<small>Set</small>"
+#~ msgstr "<small>Definir</small>"
+
+#~ msgid "_Timezone:"
+#~ msgstr "_Fus orari :"
 
 #~ msgid "X co-ordinate of panel"
 #~ msgstr "Abscissa del tablèu de bòrd"
@@ -2658,9 +2720,10 @@ msgstr "Espacis de trabalh"
 #~ "specified by the image key will be used as background."
 #~ msgstr ""
 #~ "Lo type de rèireplan utilizat amb aqueste tablèu de bòrd. Las valors "
-#~ "possiblas son : « none », ont lo rèireplan GTK+ per defaut es utilizat, « "
-#~ "color » ont la clau color es utilizada coma color de rèireplan o « imatge "
-#~ "» ont l'imatge indicat per la clau imatge es utilizat coma rèireplan."
+#~ "possiblas son : « none », ont lo rèireplan GTK+ per defaut es utilizat, "
+#~ "« color » ont la clau color es utilizada coma color de rèireplan o "
+#~ "« imatge » ont l'imatge indicat per la clau imatge es utilizat coma "
+#~ "rèireplan."
 
 #~ msgid "Specifies the background color for the panel in #RGB format."
 #~ msgstr "Indica la color del rèireplan dels tablèus de bòrd al format #RGB."
@@ -2826,9 +2889,6 @@ msgstr "Espacis de trabalh"
 #~ "Specify the initial orientation of the applet (top, bottom, left or right)"
 #~ msgstr ""
 #~ "Indica l'orientacion iniciala de l'applet (naut, bas, esquèrra, o drecha)"
-
-#~ msgid "Failed to load applet %s"
-#~ msgstr "Impossible de cargar l'applet %s"
 
 #~ msgid "Test applet utility"
 #~ msgstr "Utilitari de tèst d'applet"
@@ -3022,11 +3082,11 @@ msgstr "Espacis de trabalh"
 
 #~ msgid ""
 #~ "This key specifies the hour format used by the clock applet. Possible "
-#~ "values are \"12-hour\", \"24-hour\", \"internet\", \"unix\" and \"custom"
-#~ "\". If set to \"internet\", the clock will display Internet time. The "
-#~ "Internet time system divides the day into 1000 \".beats\". There are no "
-#~ "time zones in this system, so time is the same all over the world. If set "
-#~ "to \"unix\", the clock will display time in seconds since Epoch, i.e. "
+#~ "values are \"12-hour\", \"24-hour\", \"internet\", \"unix\" and "
+#~ "\"custom\". If set to \"internet\", the clock will display Internet time. "
+#~ "The Internet time system divides the day into 1000 \".beats\". There are "
+#~ "no time zones in this system, so time is the same all over the world. If "
+#~ "set to \"unix\", the clock will display time in seconds since Epoch, i.e. "
 #~ "1970-01-01. If set to \"custom\", the clock will display time according "
 #~ "to the format specified in the custom_format key."
 #~ msgstr ""
